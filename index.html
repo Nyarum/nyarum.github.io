@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Grigorii Eleskin — Senior Backend Engineer. Go, distributed systems, cloud infrastructure and hands-on AI agent workflows.">
+  <meta name="theme-color" content="#153a32">
+  <title>Grigorii Eleskin — Senior Backend Engineer</title>
+  <style>
+    :root { --paper:#f5f4ee; --white:#fffef9; --ink:#153a32; --text:#293d37; --muted:#5d6d65; --line:#cbd2c6; --acid:#d5ef82; --pale:#e8edde; --mono:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace; --sans:"Avenir Next",Avenir,"Segoe UI",Arial,sans-serif; --serif:Georgia,"Times New Roman",serif; }
+    *,*::before,*::after { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:6rem; }
+    body { margin:0; background:var(--paper); color:var(--text); font:1rem/1.65 var(--sans); -webkit-font-smoothing:antialiased; }
+    ::selection { background:var(--acid); color:var(--ink); }
+    a { color:inherit; text-underline-offset:.23em; }
+    a { -webkit-tap-highlight-color:transparent; }
+    :focus-visible { outline:3px solid #477030; outline-offset:5px; }
+    .button:focus-visible { outline-offset:4px; }
+    svg { display:block; max-width:100%; }
+    h1,h2,h3,p { margin:0; }
+    h1,h2,h3 { color:var(--ink); }
+    ul { padding:0; margin:0; }
+    .wrap { width:min(1224px, calc(100% - 96px)); margin-inline:auto; }
+    .skip { position:fixed; top:12px; left:16px; z-index:20; transform:translateY(-160%); background:var(--ink); color:white; padding:12px 20px; }
+    .skip:focus { transform:translateY(0); }
+    .topbar { border-bottom:1px solid var(--line); }
+    .nav { min-height:100px; display:flex; align-items:center; justify-content:space-between; gap:28px; }
+    .brand { flex-shrink:0; display:flex; align-items:center; gap:13px; text-decoration:none; font-weight:650; line-height:1.15; letter-spacing:-.02em; }
+    .brand-mark { width:44px; height:44px; display:grid; place-items:center; background:var(--ink); color:var(--acid); font:500 15px var(--mono); }
+    .brand-sub { display:block; margin-top:5px; color:var(--muted); font:10px var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+    .nav-links { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:6px 30px; align-items:center; }
+    .nav-links>a { font-size:13px; text-decoration:none; padding-block:12px; }
+    .nav-links>a:hover { text-decoration:underline; }
+    .nav-links .nav-pdf { border:1px solid var(--ink); padding:10px 15px; display:flex; align-items:center; gap:14px; }
+    .nav-pdf:hover { background:var(--ink); color:var(--white); }
+    .eyebrow { font:11px/1.6 var(--mono); text-transform:uppercase; letter-spacing:.12em; }
+    .hero { display:grid; grid-template-columns:1.2fr 1fr; gap:72px; padding-top:80px; padding-bottom:65px; align-items:center; }
+    .hero .eyebrow { display:flex; align-items:center; gap:10px; margin-bottom:28px; color:var(--muted); }
+    .eyebrow-dot { width:7px; height:7px; border-radius:50%; background:var(--ink); flex:none; }
+    h1 { font-size:clamp(58px,6.9vw,96px); line-height:.98; letter-spacing:-.072em; font-weight:550; }
+    h1 span { display:block; }
+    .hero-tagline { font:italic 31px/1.2 var(--serif); letter-spacing:-.045em; color:var(--ink); margin-top:28px; }
+    .hero-copy { color:var(--muted); max-width:450px; margin-top:22px; font-size:16px; line-height:1.8; }
+    .hero-actions { display:flex; align-items:center; gap:24px; flex-wrap:wrap; margin-top:30px; }
+    .button { display:inline-flex; align-items:center; justify-content:center; gap:22px; min-height:50px; padding:13px 22px; background:var(--ink); color:var(--white); border:1px solid var(--ink); font-size:13px; font-weight:600; text-decoration:none; cursor:pointer; transition:background .15s,color .15s; }
+    .button:hover { background:#235548; }
+    .button svg,.text-link svg { width:16px; height:16px; flex:none; }
+    .text-link { display:inline-flex; align-items:center; gap:12px; font-size:13px; font-weight:600; text-decoration:none; min-height:44px; }
+    .text-link:hover { text-decoration:underline; }
+    .diagram { background:var(--ink); color:var(--acid); padding:25px 27px 23px; position:relative; overflow:hidden; }
+    .diagram-heading { display:flex; align-items:center; justify-content:space-between; gap:20px; font:10px var(--mono); text-transform:uppercase; letter-spacing:.1em; color:#bed0c3; }
+    .diagram-heading .diagram-status { color:var(--acid); }
+    .diagram-art { width:100%; margin:23px 0 13px; }
+    .diagram-footer { border-top:1px solid #456057; padding-top:17px; display:flex; align-items:end; justify-content:space-between; gap:15px; }
+    .diagram-footer p { color:#e8eddf; font-size:12px; line-height:1.6; }
+    .diagram-footer strong { display:block; color:var(--acid); font:italic 30px/1 var(--serif); }
+    .diagram-footer .diagram-index { font:10px var(--mono); color:#bed0c3; text-align:right; }
+    .discipline-strip { border-top:1px solid var(--line); border-bottom:1px solid var(--line); display:grid; grid-template-columns:repeat(4,1fr); padding:19px 0; }
+    .discipline-strip span { display:flex; align-items:center; gap:14px; font-size:12px; }
+    .discipline-strip b { font:10px var(--mono); color:var(--muted); font-weight:400; }
+    .section { padding-block:88px; border-bottom:1px solid var(--line); }
+    .section-head { display:flex; align-items:flex-end; justify-content:space-between; gap:30px; margin-bottom:38px; }
+    .section-kicker { display:flex; gap:15px; align-items:center; color:var(--muted); margin-bottom:14px; }
+    .section-kicker span:first-child { color:var(--ink); }
+    h2 { font-weight:500; font-size:clamp(32px,3.1vw,44px); line-height:1.16; letter-spacing:-.05em; }
+    .section-note { max-width:280px; color:var(--muted); font-size:12px; line-height:1.75; }
+    .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:100px; }
+    .about-quote { font:32px/1.4 var(--serif); letter-spacing:-.035em; max-width:475px; }
+    .about-quote em { background:linear-gradient(transparent 61%,var(--acid) 61%,var(--acid) 96%,transparent 96%); font-style:italic; }
+    .about-copy { color:var(--muted); font-size:15px; }
+    .about-copy p+p { margin-top:18px; }
+    .focus-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:42px; }
+    .focus-card { background:var(--paper); padding:28px 29px 31px; }
+    .focus-card .card-index { font:11px var(--mono); color:var(--muted); display:block; margin-bottom:30px; }
+    .focus-card h3 { font-weight:550; font-size:19px; letter-spacing:-.03em; line-height:1.4; margin-bottom:12px; }
+    .focus-card p { font-size:13px; color:var(--muted); line-height:1.8; }
+    .experience .section-head { margin-bottom:20px; }
+    .job { display:grid; grid-template-columns:185px 1fr; gap:34px; padding:32px 0; border-top:1px solid var(--line); }
+    .job-date { font:11px/1.7 var(--mono); color:var(--muted); padding-top:6px; }
+    .job-date .job-meta { display:block; margin-top:8px; font-size:10px; }
+    .job-top { display:flex; align-items:flex-start; justify-content:space-between; gap:22px; }
+    .job h3 { font-size:24px; letter-spacing:-.035em; line-height:1.2; font-weight:550; }
+    .job-role { margin-top:7px; font-size:13px; color:var(--muted); }
+    .job-badge { color:var(--ink); background:var(--pale); font:10px/1.5 var(--mono); padding:5px 9px; flex-shrink:0; }
+    .job ul { list-style:none; margin-top:17px; }
+    .job li { position:relative; padding-left:17px; color:var(--muted); font-size:13px; line-height:1.8; max-width:770px; }
+    .job li+li { margin-top:4px; }
+    .job li::before { content:"—"; position:absolute; left:0; color:#748571; }
+    .earlier-label { font:10px var(--mono); text-transform:uppercase; letter-spacing:.12em; color:var(--muted); padding:31px 0 15px; border-top:1px solid var(--line); }
+    .job.compact { padding-block:26px; }
+    .job.compact h3 { font-size:20px; }
+    .toolkit-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:34px; border-top:1px solid var(--line); }
+    .toolkit-group { min-width:0; border-bottom:1px solid var(--line); padding:16px 0 18px; }
+    .toolkit-group h3 { font:11px/1.6 var(--mono); letter-spacing:.055em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+    .chips { list-style:none; display:flex; flex-wrap:wrap; gap:3px 0; }
+    .chips li { font-size:13px; line-height:1.6; color:var(--ink); overflow-wrap:anywhere; }
+    .chips li+li::before { content:"·"; margin-inline:7px; color:var(--muted); }
+    .chips .key { font-weight:650; }
+    .certifications { padding-block:58px; }
+    .certifications .section-head { margin-bottom:24px; }
+    .certification-list { list-style:none; border-top:1px solid var(--line); }
+    .certification-list li { padding-top:20px; color:var(--ink); font-size:18px; font-weight:550; }
+    .ai-workflows { list-style:none; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .ai-workflows li { padding:25px 28px; border:1px solid var(--line); background:var(--white); color:var(--muted); font-size:14px; line-height:1.8; }
+    .ai-workflows strong { color:var(--ink); font-weight:600; }
+    .ai-workflows li:last-child { grid-column:1/-1; background:var(--pale); }
+    .perspective { display:grid; grid-template-columns:1.1fr 1fr; gap:100px; }
+    .perspective h2 { max-width:510px; }
+    .perspective h2 em { font-family:var(--serif); font-weight:400; }
+    .perspective-copy { color:var(--muted); font-size:14px; }
+    .perspective-copy p+p { margin-top:18px; }
+    .interest-list { display:flex; flex-wrap:wrap; gap:8px 19px; margin-top:24px; list-style:none; font:10px/1.8 var(--mono); color:var(--ink); }
+    .interest-list li::before { content:"↗ "; }
+    .contact { background:var(--ink); color:var(--white); padding-block:65px; }
+    .contact-inner { display:grid; grid-template-columns:1.2fr 1fr; align-items:center; gap:80px; }
+    .contact .eyebrow { color:#bccbbf; margin-bottom:16px; }
+    .contact h2 { color:var(--white); font-size:40px; }
+    .contact h2 em { font-family:var(--serif); color:var(--acid); font-weight:400; }
+    .contact-actions { display:flex; flex-wrap:wrap; align-items:center; gap:15px 25px; }
+    .button.light { background:var(--acid); color:var(--ink); border-color:var(--acid); }
+    .button.light:hover { background:#e2f5ab; }
+    .contact .text-link { color:var(--white); }
+    .print-only { display:none; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    @media (min-width:1450px) { .hero { gap:105px; } }
+    @media (max-width:1050px) { .wrap { width:calc(100% - 64px); } .hero { gap:38px; padding-top:60px; } h1 { font-size:clamp(58px,7.8vw,84px); } .hero-tagline { font-size:27px; } .diagram { padding:22px; } .about-grid,.perspective { gap:55px; } .job { grid-template-columns:160px 1fr; gap:25px; } .toolkit-grid { column-gap:26px; } .contact-inner { gap:35px; } .contact h2 { font-size:36px; } }
+    @media (max-width:760px) { html { scroll-padding-top:2rem; } .wrap { width:calc(100% - 40px); } .nav { min-height:86px; gap:20px; } .brand-label { display:none; } .nav-links { gap:19px; } .nav-links>a { font-size:12px; } .nav-links .nav-pdf { padding:9px 11px; gap:8px; } .nav-links .nav-about { display:none; } .hero { grid-template-columns:1fr; gap:39px; padding-top:45px; padding-bottom:35px; } .hero .eyebrow { margin-bottom:23px; } h1 { font-size:clamp(64px,13vw,91px); } .hero-tagline { margin-top:24px; font-size:30px; } .hero-copy { max-width:520px; font-size:15px; } .diagram { max-width:100%; padding:23px 26px; } .diagram-art { width:min(390px,100%); margin:20px auto; } .diagram-footer { padding-top:18px; } .discipline-strip { grid-template-columns:repeat(2,1fr); gap:13px; padding:20px 0; } .section { padding-block:57px; } .section-head { align-items:flex-start; gap:19px; flex-direction:column; margin-bottom:29px; } .section-note { max-width:100%; } .about-grid { grid-template-columns:1fr; gap:26px; } .about-quote { font-size:29px; max-width:100%; } .about-copy { font-size:14px; } .focus-grid { grid-template-columns:1fr; margin-top:30px; } .focus-card { padding:24px; display:grid; grid-template-columns:28px 1fr; column-gap:14px; } .focus-card .card-index { grid-row:span 2; margin:5px 0 0; } .focus-card p { grid-column:2; } .focus-card h3 { font-size:18px; margin-bottom:8px; } .job { grid-template-columns:1fr; gap:13px; padding:27px 0; } .job-date { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:0; font-size:10px; } .job-date .job-meta { margin:0; } .job h3 { font-size:23px; } .job-top { gap:15px; } .job-role { max-width:260px; } .job-badge { font-size:9px; } .job li { font-size:13px; } .job.compact { padding-block:24px; } .toolkit-grid { grid-template-columns:1fr; } .toolkit-group { padding:14px 0; } .perspective { grid-template-columns:1fr; gap:29px; } .contact { padding-block:46px; } .contact-inner { grid-template-columns:1fr; gap:28px; } .contact h2 { font-size:35px; } }
+    @media (max-width:760px) { .ai-workflows { grid-template-columns:1fr; gap:12px; } .ai-workflows li { padding:22px 24px; } }
+    @media (max-width:390px) { .wrap { width:calc(100% - 32px); } .nav-links { gap:12px; } .nav-links .nav-pdf { gap:7px; padding:9px; } .nav-pdf svg { display:none; } .nav-links>a { font-size:11px; } .hero h1 { font-size:64px; } .hero-tagline { font-size:26px; } .hero-actions { gap:14px; } .hero-actions .button { padding-inline:16px; } .toolkit-grid { grid-template-columns:1fr; } .job-badge { display:none; } .diagram { padding:20px; } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none !important; animation:none !important; } }
+    @page { size:A4; margin:15mm 16mm; }
+    @media print {
+      :root { --paper:white; --ink:#172c25; --text:#172c25; --muted:#465249; --line:#bac3b9; }
+      html { scroll-behavior:auto; }
+      body { color:#172c25; background:#fff; font:9pt/1.45 Arial,sans-serif; }
+      .wrap { width:100%; max-width:none; margin:0; }
+      .skip,.topbar,.hero-actions,.diagram,.discipline-strip,.focus-grid,.contact { display:none !important; }
+      .hero { display:block; padding:0 0 5mm; border-bottom:1px solid var(--line); }
+      .hero .eyebrow { margin-bottom:3mm; font-size:8pt; }
+      .hero h1 { font-size:34pt; line-height:1.08; letter-spacing:-1.8pt; }
+      .hero h1 span { display:inline; }
+      .hero h1 span+span::before { content:" "; }
+      .hero-tagline { font-size:16pt; margin-top:2.5mm; }
+      .hero-copy { font-size:9pt; line-height:1.5; max-width:none; margin-top:3mm; }
+      .print-only { display:block; margin-top:3mm; font-size:8pt; }
+      .section { padding:5mm 0; }
+      .section-head { display:block; margin-bottom:3mm; }
+      .section-kicker { font-size:7pt; margin-bottom:1.5mm; gap:3mm; }
+      h2 { font-size:18pt; letter-spacing:-.5pt; }
+      .section-note { font-size:8pt; max-width:none; margin-top:2mm; }
+      .about-grid { display:block; }
+      .about-quote { display:none; }
+      .about-copy { font-size:9pt; }
+      .about-copy p+p { margin-top:2mm; }
+      .job { grid-template-columns:34mm 1fr; gap:5mm; padding:4mm 0; break-inside:avoid; page-break-inside:avoid; }
+      .job-date { display:block; padding-top:1mm; font-size:7.5pt; }
+      .job-date .job-meta { display:block; margin-top:1.5mm; font-size:7pt; }
+      .job h3,.job.compact h3 { font-size:13pt; }
+      .job-role { font-size:8pt; margin-top:1.5mm; max-width:none; }
+      .job-badge { display:none; }
+      .job ul { margin-top:2mm; }
+      .job li { font-size:8.5pt; line-height:1.5; max-width:none; padding-left:3mm; }
+      .job li+li { margin-top:1mm; }
+      .job.compact { padding-block:3.5mm; }
+      .earlier-label { padding:4mm 0 2mm; font-size:7pt; break-after:avoid; }
+      .toolkit-grid { display:block; }
+      .toolkit-group { padding:2mm 0; break-inside:avoid; page-break-inside:avoid; }
+      .toolkit-group h3 { font-size:8pt; margin-bottom:1mm; }
+      .chips { display:block; }
+      .chips li,.chips .key { display:inline; border:0; padding:0; background:none; color:#172c25; font-size:9pt; line-height:1.5; }
+      .chips li+li::before { content:none; }
+      .chips li:not(:last-child)::after { content:" · "; }
+      .certifications .section-head { margin-bottom:3mm; }
+      .certification-list li { padding-top:2mm; font-size:11pt; }
+      .ai-workflows { display:block; list-style:disc; padding-left:4mm; }
+      .ai-workflows li,.ai-workflows li:last-child { padding:0; margin-bottom:2mm; border:0; background:none; font-size:9pt; line-height:1.5; break-inside:avoid; page-break-inside:avoid; }
+      .perspective { display:block; }
+      .perspective-copy { font-size:9pt; margin-top:3mm; }
+      .perspective-copy p+p { margin-top:2mm; }
+      .interest-list { margin-top:2mm; font-size:7pt; }
+      h2,h3 { break-after:avoid; page-break-after:avoid; }
+      p,li { orphans:3; widows:3; }
+      a { text-decoration:none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <nav class="wrap nav" aria-label="Main navigation">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">g/e</span><span class="brand-label">Grigorii Eleskin<span class="brand-sub">Engineering portfolio</span></span></div>
+      <div class="nav-links">
+        <a class="nav-about" href="#about">About</a><a href="#experience">Experience</a><a href="#ai" aria-label="AI Engineering and Agent Workflows">AI</a><a href="#toolkit">Toolkit</a>
+        <a class="nav-pdf" href="grigorii-eleskin-resume.pdf" download="Grigorii-Eleskin-Resume.pdf">Download PDF <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 14v3h14v-3" stroke="currentColor" stroke-width="1.5"/></svg></a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="name">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> <span id="professional-title">Senior Backend Engineer</span> <span aria-hidden="true">/</span> Georgia</p>
+        <h1 id="name"><span>Grigorii</span><span>Eleskin.</span></h1>
+        <p id="specialization" class="hero-tagline">Go · Distributed Systems · Cloud Infrastructure</p>
+        <p class="hero-copy">A backend foundation, a polyglot mindset and a hands-on approach to cloud infrastructure and AI agent workflows.</p>
+        <div class="hero-actions">
+          <a class="button" href="#experience">Explore my experience <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14m-5-5 5 5 5-5" stroke="currentColor" stroke-width="1.5"/></svg></a>
+          <a class="text-link" href="https://www.linkedin.com/in/nyarum/" target="_blank" rel="noopener noreferrer">LinkedIn <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10" stroke="currentColor" stroke-width="1.5"/></svg><span class="sr-only">(opens in a new tab)</span></a>
+        </div>
+        <p class="print-only">Georgia · LinkedIn: <a href="https://www.linkedin.com/in/nyarum/">linkedin.com/in/nyarum</a></p>
+      </div>
+      <div class="diagram" role="img" aria-label="Abstract diagram of Go, cloud, data, systems and reverse engineering. 10+ years of software engineering experience.">
+        <div class="diagram-heading" aria-hidden="true"><span>Engineering focus</span><span class="diagram-status">Go &amp; systems</span></div>
+        <svg class="diagram-art" viewBox="0 0 410 328" fill="none" aria-hidden="true">
+          <defs><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".75" fill="#7d9a83" opacity=".33"/></pattern></defs>
+          <path fill="url(#grid)" d="M0 0h410v328H0z"/>
+          <ellipse cx="205" cy="156" rx="116" ry="114" stroke="#52715d" stroke-dasharray="3 6"/>
+          <ellipse cx="205" cy="156" rx="152" ry="147" stroke="#39584a"/>
+          <path d="M205 58v45M87 156h65m105 0h66M205 209v62" stroke="#d5ef82" stroke-width="1.5"/>
+          <path d="M96 66h49l32 40m57 99 35 40h53" stroke="#52715d"/>
+          <circle cx="205" cy="156" r="57" fill="#22483b" stroke="#d5ef82" stroke-width="1.5"/>
+          <circle cx="205" cy="156" r="48" stroke="#537250"/>
+          <text x="205" y="169" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="42" fill="#d5ef82">Go</text>
+          <rect x="160" y="27" width="90" height="30" fill="#153a32" stroke="#6c8767"/><text x="205" y="46" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="1" fill="#e3eadb">CLOUD</text>
+          <rect x="16" y="141" width="73" height="30" fill="#153a32" stroke="#6c8767"/><text x="52" y="160" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="1" fill="#e3eadb">DATA</text>
+          <rect x="323" y="141" width="73" height="30" fill="#153a32" stroke="#6c8767"/><text x="359" y="160" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="1" fill="#e3eadb">SYSTEMS</text>
+          <rect x="145" y="272" width="120" height="30" fill="#153a32" stroke="#6c8767"/><text x="205" y="291" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="1" fill="#e3eadb">REVERSE ENG.</text>
+          <circle cx="96" cy="66" r="4" fill="#d5ef82"/><circle cx="322" cy="245" r="4" fill="#d5ef82"/><circle cx="108" cy="241" r="3" fill="#7d9a83"/>
+          <path d="M16 16h13M16 16v13m381-13h-13m13 0v13M16 313h13m-13 0v-13m381 13h-13m13 0v-13" stroke="#7d9a83"/>
+        </svg>
+        <div class="diagram-footer" aria-hidden="true"><p><strong>10+ years</strong><span>Software engineering experience</span></p><p class="diagram-index">Backend · Systems<br>Cloud · AI workflows</p></div>
+      </div>
+    </section>
+    <div class="wrap discipline-strip" aria-label="Engineering disciplines"><span><b>01</b> Backend engineering</span><span><b>02</b> Distributed systems</span><span><b>03</b> Cloud infrastructure</span><span><b>04</b> AI agent workflows</span></div>
+
+    <section id="about" class="wrap section" aria-labelledby="about-title">
+      <div class="section-head"><div><p class="eyebrow section-kicker"><span>01</span><span>About</span></p><h2 id="about-title">Backend depth. Systems thinking.</h2></div><p class="section-note">Software engineering across products,<br>infrastructure and teams.</p></div>
+      <div class="about-grid">
+        <p class="about-quote">A backend foundation.<br><em>A systems perspective.</em></p>
+        <div class="about-copy"><p>Senior Backend Engineer with 10+ years of software engineering experience, specializing in backend and distributed systems.</p><p>Most recently at 1inch, worked on Pathfinder, backend services and swap functionality across 20 blockchains. Previous experience includes event-driven analytics, AWS and Kubernetes infrastructure, and backend team leadership.</p></div>
+      </div>
+      <div class="focus-grid">
+        <article class="focus-card"><span class="card-index">[01]</span><h3>Backend &amp; distributed systems</h3><p>Go services, event-driven architectures and analytics platforms. Experience across game analytics, user behavior analytics and blockchain gaming.</p></article>
+        <article class="focus-card"><span class="card-index">[02]</span><h3>Cloud &amp; delivery</h3><p>Infrastructure work with AWS, Kubernetes and Terraform. CI/CD automation, system stability and a hands-on approach to troubleshooting.</p></article>
+        <article class="focus-card"><span class="card-index">[03]</span><h3>Backend team leadership</h3><p>Led a backend team in feature development and support. Worked on architectural improvements and refactoring for third-party clients.</p></article>
+      </div>
+    </section>
+
+    <section id="experience" class="wrap section experience" aria-labelledby="experience-title">
+      <div class="section-head"><div><p class="eyebrow section-kicker"><span>02</span><span>Experience</span></p><h2 id="experience-title">Backend engineering in practice.</h2></div></div>
+      <article class="job"><div class="job-date"><div class="date-range"><time datetime="2023-01">Jan 2023</time> — <time datetime="2026-09">Sep 2026</time></div></div><div><div class="job-top"><div><h3>1inch</h3><p class="job-role">Senior Backend Engineer</p></div></div><ul><li>Worked on Pathfinder and backend services at 1inch, contributing to the backend of a blockchain-based swap product.</li><li>Worked on swap functionality across 20 blockchains, with experience spanning Pathfinder and backend development in a multi-blockchain environment.</li></ul></div></article>
+      <article class="job"><div class="job-date"><div class="date-range"><time datetime="2022-01">Jan 2022</time> — <time datetime="2022-12">Dec 2022</time></div><span class="job-meta">Remote · Full-time</span></div><div><div class="job-top"><div><h3>Faraway</h3><p class="job-role">Senior Golang Developer</p></div><span class="job-badge">Blockchain gaming</span></div><ul><li>Developed backend features for a blockchain game, contributing to the server-side functionality of the gaming product.</li><li>Maintained and optimized AWS and Kubernetes infrastructure, combining backend feature development with hands-on cloud infrastructure work.</li><li>Helped the team troubleshoot technical issues and improve system stability, supporting both backend development and infrastructure maintenance.</li></ul></div></article>
+      <article class="job"><div class="job-date"><div class="date-range"><time datetime="2020-06">Jun 2020</time> — <time datetime="2021-11">Nov 2021</time></div><span class="job-meta">Remote · Full-time</span></div><div><div class="job-top"><div><h3>UserReplay</h3><p class="job-role">Senior Golang Developer</p></div><span class="job-badge">User analytics</span></div><ul><li>Integrated user behavior analytics features, contributing backend functionality to a product focused on understanding user interactions.</li><li>Refactored an event-driven system to improve performance, working on the underlying backend as well as new analytics features.</li><li>Implemented Terraform pipelines and maintained AWS clusters, supporting the cloud infrastructure alongside application-level development.</li></ul></div></article>
+      <article class="job"><div class="job-date"><div class="date-range"><time datetime="2018-12">Dec 2018</time> — <time datetime="2020-05">May 2020</time></div><span class="job-meta">Remote · Full-time</span></div><div><div class="job-top"><div><h3>youwork.today</h3><p class="job-role">Technical Team Lead</p></div><span class="job-badge">Backend leadership</span></div><ul><li>Led the backend team in developing new features and supporting existing functionality, using agile practices to organize the team’s work.</li><li>Worked on architectural improvements and refactored existing functionality for multiple third-party clients, combining technical leadership with hands-on backend development.</li></ul></div></article>
+      <article class="job"><div class="job-date"><div class="date-range"><time datetime="2017-10">Oct 2017</time> — <time datetime="2018-10">Oct 2018</time></div><span class="job-meta">Remote</span></div><div><div class="job-top"><div><h3>Mobalytics</h3><p class="job-role">Backend Developer</p></div><span class="job-badge">Game analytics</span></div><ul><li>Developed microservices for game analytics, contributing backend functionality to a product centered on gaming data.</li><li>Introduced a beta solution for CS:GO analytics, adding game-specific analytics work alongside the broader microservices effort.</li><li>Helped maintain system stability and resolve technical issues, balancing analytics feature development with ongoing backend troubleshooting.</li></ul></div></article>
+      <p class="earlier-label">Earlier experience</p>
+      <article class="job compact"><div class="job-date"><div class="date-range"><time datetime="2017-03">Mar 2017</time> — <time datetime="2017-10">Oct 2017</time></div><span class="job-meta">Remote · Contract</span></div><div class="job-body"><h3>Ronin Club</h3><p class="job-role">Software Engineer</p><ul><li>Developed software features for outsourced clients, translating business requirements into application functionality and addressing the specific needs of external client projects.</li></ul></div></article>
+      <article class="job compact"><div class="job-date"><div class="date-range"><time datetime="2015-07">Jul 2015</time> — <time datetime="2017-01">Jan 2017</time></div><span class="job-meta">Remote · Full-time</span></div><div class="job-body"><h3>SeeSaw Labs</h3><p class="job-role">Middle Golang Developer</p><ul><li>Contributed to backend development and business logic solutions, focusing on the server-side behavior needed to support application functionality.</li></ul></div></article>
+      <article class="job compact"><div class="job-date"><div class="date-range"><time datetime="2016-09">Sep 2016</time> — <time datetime="2016-12">Dec 2016</time></div><span class="job-meta">Remote · Freelance</span></div><div class="job-body"><h3>Iron.io</h3><p class="job-role">Middle Golang Developer</p><ul><li>Developed a command-line utility for the Iron service, with an emphasis on making command-line interactions more usable and efficient.</li></ul></div></article>
+    </section>
+
+    <section id="ai" class="wrap section" aria-labelledby="ai-title">
+      <div class="section-head"><div><p class="eyebrow section-kicker"><span>03</span><span>AI practice</span></p><h2 id="ai-title">AI Engineering &amp; Agent Workflows</h2></div></div>
+      <ul class="ai-workflows">
+        <li>Hands-on experience with <strong>Claude Code, Codex and OpenCode</strong>.</li>
+        <li>Use my own modular <strong>Onepiece</strong> harness, enabling optional capabilities and extensions separately as needed.</li>
+        <li>Prefer local <strong>Qwen</strong> models for privacy.</li>
+        <li>Follow <strong>spec-driven workflows</strong> with a research-first approach.</li>
+        <li>Verify work through live testing and evidence-based checks. Re-check previously validated work in a fresh context, independently of earlier conclusions.</li>
+      </ul>
+    </section>
+
+    <section id="toolkit" class="wrap section" aria-labelledby="toolkit-title">
+      <div class="section-head"><div><p class="eyebrow section-kicker"><span>04</span><span>Toolkit</span></p><h2 id="toolkit-title">Technical Expertise</h2></div></div>
+      <div class="toolkit-grid">
+        <div class="toolkit-group"><h3>Languages</h3><ul class="chips"><li class="key">Go / Golang</li><li>Rust</li><li>Elixir</li><li>TypeScript</li><li>JavaScript</li><li>Dart</li><li>Zig</li></ul></div>
+        <div class="toolkit-group"><h3>Backend &amp; Systems</h3><ul class="chips"><li>Backend Development</li><li>Distributed Systems</li><li>Event-Driven Architecture</li><li>Microservices</li><li>CLI Development</li></ul></div>
+        <div class="toolkit-group"><h3>Cloud &amp; Infrastructure</h3><ul class="chips"><li>AWS</li><li>GCP</li><li>Kubernetes</li><li>Docker</li><li>Terraform</li></ul></div>
+        <div class="toolkit-group"><h3>Delivery &amp; Automation</h3><ul class="chips"><li>CI/CD</li><li>GitHub Actions</li><li>Infrastructure as Code</li></ul></div>
+        <div class="toolkit-group"><h3>Databases &amp; Search</h3><ul class="chips"><li>PostgreSQL</li><li>CockroachDB</li><li>MySQL</li><li>MongoDB</li><li>Elasticsearch</li></ul></div>
+        <div class="toolkit-group"><h3>Messaging</h3><ul class="chips"><li>NATS</li><li>Kafka</li><li>RabbitMQ</li></ul></div>
+        <div class="toolkit-group"><h3>Observability</h3><ul class="chips"><li>Prometheus</li><li>Grafana</li><li>Jaeger</li></ul></div>
+        <div class="toolkit-group"><h3>Reverse Engineering</h3><ul class="chips"><li>IDA Pro</li><li>OllyDbg</li><li>Wireshark</li><li>Protocol Reverse Engineering</li></ul></div>
+        <div class="toolkit-group"><h3>AI &amp; Agent Engineering</h3><ul class="chips"><li>Claude Code</li><li>Codex</li><li>OpenCode</li><li>Onepiece</li><li>Local Qwen Models</li></ul></div>
+        <div class="toolkit-group"><h3>Engineering Practices</h3><ul class="chips"><li>Backend Team Leadership</li><li>Agile Development</li><li>Scrum</li></ul></div>
+        <div class="toolkit-group"><h3>API &amp; Networking</h3><ul class="chips"><li>REST</li><li>gRPC</li><li>WebSockets</li><li>HTTP</li><li>TCP/IP</li><li>Protobuf</li></ul></div>
+        <div class="toolkit-group"><h3>Go Engineering</h3><ul class="chips"><li>Concurrency</li><li>Profiling</li><li>pprof</li><li>Benchmarking</li><li>Memory Optimization</li></ul></div>
+        <div class="toolkit-group"><h3>Reliability</h3><ul class="chips"><li>Incident Response</li><li>Root-Cause Analysis</li><li>SLO/SLI</li><li>On-call</li></ul></div>
+        <div class="toolkit-group"><h3>Testing</h3><ul class="chips"><li>Unit</li><li>Integration</li><li>End-to-End</li><li>Load Testing</li><li>Fuzzing</li></ul></div>
+        <div class="toolkit-group"><h3>Security</h3><ul class="chips"><li>OAuth 2.0</li><li>JWT</li><li>RBAC</li><li>Secrets Management</li></ul></div>
+        <div class="toolkit-group"><h3>Blockchain Backend</h3><ul class="chips"><li>EVM</li><li>JSON-RPC</li><li>ABI</li><li>Smart-Contract Integration</li><li>Transaction Lifecycle</li></ul></div>
+        <div class="toolkit-group"><h3>Platform</h3><ul class="chips"><li>Linux</li><li>Bash</li><li>Helm</li><li>Argo CD</li><li>GitOps</li></ul></div>
+        <div class="toolkit-group"><h3>Caching</h3><ul class="chips"><li>Redis</li><li>Cache Invalidation</li><li>Distributed Caching</li></ul></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="wrap section certifications" aria-labelledby="certifications-title">
+      <div class="section-head"><div><p class="eyebrow section-kicker"><span>05</span><span>Training</span></p><h2 id="certifications-title">Certifications &amp; Training</h2></div></div>
+      <ul class="certification-list"><li>Scrum Developer Certificate</li></ul>
+    </section>
+
+    <section class="wrap section perspective" aria-labelledby="perspective-title">
+      <div><p class="eyebrow section-kicker"><span>06</span><span>Beyond the job title</span></p><h2 id="perspective-title">Curiosity doesn’t stop<br>at the <em>interface.</em></h2></div>
+      <div class="perspective-copy"><p>I’ve open-sourced three game versions through more than a decade of reverse-engineering MMORPG protocols.</p><p>Interests include Zig and Gleam, low-level systems, functional programming and fault-tolerant backends.</p><ul class="interest-list" aria-label="Interests"><li>Open source</li><li>Mentoring</li><li>Low-level systems</li><li>Functional programming</li></ul></div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><div><p class="eyebrow">Continue the conversation</p><h2 id="contact-title">Something complex?<br><em>Let’s talk engineering.</em></h2></div><div class="contact-actions"><a class="button light" href="https://www.linkedin.com/in/nyarum/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10" stroke="currentColor" stroke-width="1.5"/></svg></a><a class="text-link" href="grigorii-eleskin-resume.pdf" download="Grigorii-Eleskin-Resume.pdf">Download résumé <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 14v3h14v-3" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div></section>
+  </main>
+</body>
+</html>
