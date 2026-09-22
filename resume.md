@@ -4,7 +4,7 @@ Senior Backend Engineer
 
 Go · Distributed Systems · Cloud Infrastructure
 
-Georgia · LinkedIn: [linkedin.com/in/nyarum](https://www.linkedin.com/in/nyarum/)
+Georgia · LinkedIn: [linkedin.com/in/nyarum](https://www.linkedin.com/in/nyarum/) · [Telegram · @golovatskiii](https://t.me/golovatskiii) · [GitHub · Nyarum](https://github.com/Nyarum)
 
 ## Summary
 
