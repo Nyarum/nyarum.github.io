@@ -6,6 +6,9 @@ Public engineering portfolio and résumé.
 
 ## Profile and résumé
 
+- [Резюме на русском](https://nyarum.github.io/ru.html): Русская версия портфолио и резюме.
+- [Резюме на русском \(Markdown\)](https://nyarum.github.io/resume-ru.md): Полный текст резюме на русском.
+- [Резюме на русском \(PDF\)](https://nyarum.github.io/grigorii-eleskin-resume-ru.pdf): PDF с текстовым слоем и встроенным кириллическим шрифтом.
 - [Portfolio](https://nyarum.github.io/): Professional profile, work experience, AI practice and technical expertise.
 - [Résumé \(Markdown\)](https://nyarum.github.io/resume.md): Full text résumé: role dates and descriptions, summary, AI workflows, skills and training.
 - [Résumé \(PDF\)](https://nyarum.github.io/grigorii-eleskin-resume.pdf): Downloadable, text-based résumé with the same professional content.
