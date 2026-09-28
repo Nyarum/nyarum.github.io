@@ -1,6 +1,6 @@
 # Grigorii Eleskin
 
-> Senior Backend Engineer. Go · Distributed Systems · Cloud Infrastructure.
+> Senior Backend Engineer. Web 3 · Go · LLM Serving / Custom harnesses.
 
 Public engineering portfolio and résumé.
 

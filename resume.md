@@ -2,13 +2,13 @@
 
 Senior Backend Engineer
 
-Go · Distributed Systems · Cloud Infrastructure
+Web 3 · Go · LLM Serving / Custom harnesses
 
 Georgia · LinkedIn: [linkedin.com/in/nyarum](https://www.linkedin.com/in/nyarum/) · [Telegram · @golovatskiii](https://t.me/golovatskiii) · [GitHub · Nyarum](https://github.com/Nyarum)
 
 ## Summary
 
-Senior Backend Engineer with 10\+ years of software engineering experience, specializing in backend and distributed systems. Most recently at 1inch, worked on Pathfinder, backend services and swap functionality across 20 blockchains. Previous experience includes event-driven analytics, AWS and Kubernetes infrastructure, and backend team leadership.
+Senior Backend Engineer with 10\+ years of software engineering experience across Web 3, gaming and analytics, with deep PostgreSQL knowledge. At 1inch, worked on Pathfinder and swaps across 20 blockchains, optimized NATS-based asynchronous communication, used pprof, Tempo and Loki for profiling and observability, and operated multi-cluster Kubernetes environments with Helm and Terraform. Earlier experience includes Go backends, event-driven analytics, AWS infrastructure and backend team leadership. Knowledge of LLM deployment with vLLM and SGLang and model quantization. Develop and use Onepiece, a modular custom harness for AI-assisted engineering workflows.
 
 ## Experience
 
@@ -16,62 +16,89 @@ Senior Backend Engineer with 10\+ years of software engineering experience, spec
 
 Jan 2023 – Sep 2026
 
-- Worked on Pathfinder and backend services at 1inch, contributing to the backend of a blockchain-based swap product.
-- Worked on swap functionality across 20 blockchains, with experience spanning Pathfinder and backend development in a multi-blockchain environment.
+- Contributed to Pathfinder and backend services supporting swap functionality across 20 blockchains.
+- Optimized NATS-based inter-service communication and worked on asynchronous RPC using selected JetStream capabilities.
+- Used continuous profiling with pprof to investigate backend performance and guide targeted optimizations.
+- Used Grafana Tempo for distributed tracing and Grafana Loki for log analysis when investigating backend behavior.
+- Operated multi-cluster Kubernetes environments, deploying services with Helm and managing infrastructure with Terraform.
 
 ### Faraway — Senior Golang Developer
 
 Jan 2022 – Dec 2022 · Remote · Full-time
 
-- Developed backend features for a blockchain game, contributing to the server-side functionality of the gaming product.
-- Maintained and optimized AWS and Kubernetes infrastructure, combining backend feature development with hands-on cloud infrastructure work.
-- Helped the team troubleshoot technical issues and improve system stability, supporting both backend development and infrastructure maintenance.
+- Developed Go backend features for a blockchain gaming product, implementing server-side application functionality.
+- Maintained AWS infrastructure supporting the product alongside hands-on backend development.
+- Worked on Kubernetes infrastructure supporting the backend runtime environment.
+- Optimized AWS and Kubernetes infrastructure as part of ongoing platform improvements.
+- Investigated technical issues with the team and helped improve application and infrastructure stability.
 
 ### UserReplay — Senior Golang Developer
 
 Jun 2020 – Nov 2021 · Remote · Full-time
 
-- Integrated user behavior analytics features, contributing backend functionality to a product focused on understanding user interactions.
-- Refactored an event-driven system to improve performance, working on the underlying backend as well as new analytics features.
-- Implemented Terraform pipelines and maintained AWS clusters, supporting the cloud infrastructure alongside application-level development.
+- Developed Go backend functionality for a user behavior analytics platform.
+- Integrated new analytics features into the existing backend, extending the platform's functionality.
+- Refactored the event-driven backend to improve processing performance.
+- Implemented Terraform pipelines for infrastructure changes alongside application development.
+- Maintained AWS clusters supporting the analytics platform and its backend services.
 
 ### youwork.today — Technical Team Lead
 
 Dec 2018 – May 2020 · Remote · Full-time
 
-- Led the backend team in developing new features and supporting existing functionality, using agile practices to organize the team’s work.
-- Worked on architectural improvements and refactored existing functionality for multiple third-party clients, combining technical leadership with hands-on backend development.
+- Led a backend team developing new features for third-party client projects.
+- Organized development work using agile practices, coordinating feature delivery and support for existing functionality.
+- Combined technical leadership with hands-on work on backend functionality for client applications.
+- Improved the architecture of existing backend systems across multiple client projects.
+- Refactored existing application functionality as part of ongoing backend development and maintenance.
 
 ### Mobalytics — Backend Developer
 
 Oct 2017 – Oct 2018 · Remote
 
-- Developed microservices for game analytics, contributing backend functionality to a product centered on gaming data.
-- Introduced a beta solution for CS:GO analytics, adding game-specific analytics work alongside the broader microservices effort.
-- Helped maintain system stability and resolve technical issues, balancing analytics feature development with ongoing backend troubleshooting.
+- Developed microservices for a game analytics platform, implementing backend functionality for its analytical features.
+- Worked on the communication protocol used to interact with CS:GO as part of game-specific backend development.
+- Introduced a beta solution for CS:GO analytics, extending the platform's game-specific functionality.
+- Investigated technical issues in the analytics backend to help the team resolve problems.
+- Supported backend service stability alongside microservice and CS:GO analytics development.
 
 ### Ronin Club — Software Engineer
 
 Mar 2017 – Oct 2017 · Remote · Contract
 
-- Developed software features for outsourced clients, translating business requirements into application functionality and addressing the specific needs of external client projects.
+- Developed software features for external clients, translating business requirements into working application functionality.
+- Worked through client requirements at implementation level, connecting business needs with concrete application behavior.
+- Implemented application logic around client-specific workflows and business rules.
+- Integrated feature-level changes into client applications as part of outsourced development work.
+- Refined feature implementations against business requirements to keep application behavior aligned with client needs.
 
 ### SeeSaw Labs — Middle Golang Developer
 
 Jul 2015 – Jan 2017 · Remote · Full-time
 
-- Contributed to backend development and business logic solutions, focusing on the server-side behavior needed to support application functionality.
+- Developed backend functionality in Go, contributing to the application's server-side implementation.
+- Implemented business logic that translated application requirements into concrete backend behavior.
+- Worked on backend components responsible for applying business rules within application workflows.
+- Connected business-logic implementation with the surrounding backend functionality as part of feature development.
+- Refined backend code to keep application behavior aligned with business-logic requirements.
 
 ### Iron.io — Middle Golang Developer
 
 Sep 2016 – Dec 2016 · Remote · Freelance
 
-- Developed a command-line utility for the Iron service, with an emphasis on making command-line interactions more usable and efficient.
+- Developed a Go command-line utility for the Iron service, providing a terminal-based interface to its functionality.
+- Implemented command behavior for interacting with Iron, connecting CLI actions to the service's capabilities.
+- Worked on the utility's user-facing command flow, focusing on straightforward interaction from the terminal.
+- Improved CLI usability by refining how users accessed the utility's functionality.
+- Refined command-line workflows to make routine interactions with the Iron service more efficient.
 
-## AI Engineering & Agent Workflows
+## LLM Serving & Custom Harnesses
 
+- Knowledge of LLM deployment and serving with vLLM and SGLang.
+- Knowledge of model quantization in the context of LLM deployment.
+- Develop and use my own modular Onepiece harness for AI-assisted engineering workflows.
+- Enable optional capabilities and extensions independently in Onepiece as needed.
 - Hands-on experience with Claude Code, Codex and OpenCode.
-- Use my own modular Onepiece harness, enabling optional capabilities and extensions separately as needed.
 - Prefer local Qwen models for privacy.
 - Follow spec-driven workflows with a research-first approach.
 - Verify work through live testing and evidence-based checks. Re-check previously validated work in a fresh context, independently of earlier conclusions.
@@ -88,7 +115,7 @@ Backend Development, Distributed Systems, Event-Driven Architecture, Microservic
 
 ### Cloud & Infrastructure
 
-AWS, GCP, Kubernetes, Docker, Terraform
+AWS, GCP, Kubernetes, Multi-cluster Kubernetes, Docker, Terraform
 
 ### Delivery & Automation
 
@@ -100,11 +127,11 @@ PostgreSQL, CockroachDB, MySQL, MongoDB, Elasticsearch
 
 ### Messaging
 
-NATS, Kafka, RabbitMQ
+NATS, NATS JetStream, Kafka, RabbitMQ
 
 ### Observability
 
-Prometheus, Grafana, Jaeger
+Prometheus, Grafana, Jaeger, Grafana Tempo, Grafana Loki
 
 ### Reverse Engineering
 
@@ -112,7 +139,7 @@ IDA Pro, OllyDbg, Wireshark, Protocol Reverse Engineering
 
 ### AI & Agent Engineering
 
-Claude Code, Codex, OpenCode, Onepiece, Local Qwen Models
+Claude Code, Codex, OpenCode, Onepiece, Local Qwen Models, LLM Deployment, vLLM, SGLang, Model Quantization, Custom Harnesses
 
 ### Engineering Practices
 
@@ -120,11 +147,11 @@ Backend Team Leadership, Agile Development, Scrum
 
 ### API & Networking
 
-REST, gRPC, WebSockets, HTTP, TCP/IP, Protobuf
+REST, gRPC, WebSockets, HTTP, TCP/IP, Protobuf, Asynchronous RPC
 
 ### Go Engineering
 
-Concurrency, Profiling, pprof, Benchmarking, Memory Optimization
+Concurrency, Profiling, pprof, Continuous Profiling, Benchmarking, Memory Optimization
 
 ### Reliability
 
