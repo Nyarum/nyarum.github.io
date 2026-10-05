@@ -10,7 +10,7 @@ endobj
 << /Type /Pages /Kids [7 0 R 10 0 R 13 0 R 16 0 R] /Count 4 >>
 endobj
 4 0 obj
-<< /Length 5629 >>
+<< /Length 5396 >>
 stream
 0.835 0.937 0.510 rg 0 831.89 595.28 10 re f
 BT /F2 9.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 796.89 Tm (BACKEND ENGINEERING) Tj ET
@@ -21,46 +21,44 @@ BT /F1 9.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 688.89 Tm (Georgia \267 Linked
 0.780 0.820 0.770 RG 0.70 w 44.00 672.89 m 551.28 672.89 l S
 BT /F2 9.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 649.89 Tm (SUMMARY) Tj ET
 0.780 0.820 0.770 RG 0.70 w 44.00 640.89 m 551.28 640.89 l S
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 625.89 Tm (Senior Backend Engineer with 10+ years of software engineering experience across Web 3, gaming and) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 610.89 Tm (analytics, with deep PostgreSQL knowledge. At 1inch, worked on Pathfinder and swaps across 20) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 595.89 Tm (blockchains, optimized NATS-based asynchronous communication, used pprof, Tempo and Loki for) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 580.89 Tm (profiling and observability, and operated multi-cluster Kubernetes environments with Helm and) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 565.89 Tm (Terraform. Earlier experience includes Go backends, event-driven analytics, AWS infrastructure and) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 550.89 Tm (backend team leadership. Knowledge of LLM deployment with vLLM and SGLang and model) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 535.89 Tm (quantization. Develop and use Onepiece, a modular custom harness for AI-assisted engineering) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 520.89 Tm (workflows.) Tj ET
-BT /F2 9.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 493.89 Tm (EXPERIENCE) Tj ET
-0.780 0.820 0.770 RG 0.70 w 44.00 484.89 m 551.28 484.89 l S
-BT /F2 12.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 467.89 Tm (1inch \227 Senior Backend Engineer) Tj ET
-BT /F1 9.50 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 450.89 Tm (Jan 2023 \226 Sep 2026) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 432.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 432.89 Tm (Contributed to Pathfinder and backend services supporting swap functionality across 20 blockchains.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 414.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 414.89 Tm (Optimized NATS-based inter-service communication and worked on asynchronous RPC using) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 399.89 Tm (selected JetStream capabilities.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 381.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 381.89 Tm (Used continuous profiling with pprof to investigate backend performance and guide targeted) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 366.89 Tm (optimizations.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 348.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 348.89 Tm (Used Grafana Tempo for distributed tracing and Grafana Loki for log analysis when investigating) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 333.89 Tm (backend behavior.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 315.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 315.89 Tm (Operated multi-cluster Kubernetes environments, deploying services with Helm and managing) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 300.89 Tm (infrastructure with Terraform.) Tj ET
-BT /F2 12.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 268.89 Tm (Faraway \227 Senior Golang Developer) Tj ET
-BT /F1 9.50 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 251.89 Tm (Jan 2022 \226 Dec 2022 \267 Remote \267 Full-time) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 233.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 233.89 Tm (Developed Go backend features for a blockchain gaming product, implementing server-side) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 218.89 Tm (application functionality.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 200.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 200.89 Tm (Maintained AWS infrastructure supporting the product alongside hands-on backend development.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 182.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 182.89 Tm (Worked on Kubernetes infrastructure supporting the backend runtime environment.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 164.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 164.89 Tm (Optimized AWS and Kubernetes infrastructure as part of ongoing platform improvements.) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 146.89 Tm (\226) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 146.89 Tm (Investigated technical issues with the team and helped improve application and infrastructure) Tj ET
-BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 131.89 Tm (stability.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 625.89 Tm (I\222m a Senior Backend Engineer with 10+ years of software engineering experience across Web3,) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 610.89 Tm (gaming and analytics. My background includes Go backend development, event-driven systems, cloud) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 595.89 Tm (infrastructure and backend team leadership, with deep PostgreSQL knowledge. At 1inch, I contributed) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 580.89 Tm (to Pathfinder and backend services supporting swaps across 20 blockchains. Alongside my backend) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 565.89 Tm (work, I develop and use Onepiece, a modular custom harness for AI-assisted engineering workflows. I) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 550.89 Tm (also have knowledge of LLM deployment with vLLM and SGLang and model quantization.) Tj ET
+BT /F2 9.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 523.89 Tm (EXPERIENCE) Tj ET
+0.780 0.820 0.770 RG 0.70 w 44.00 514.89 m 551.28 514.89 l S
+BT /F2 12.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 497.89 Tm (1inch \227 Senior Backend Engineer) Tj ET
+BT /F1 9.50 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 480.89 Tm (Jan 2023 \226 Sep 2026) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 462.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 462.89 Tm (Contributed to Pathfinder and backend services supporting swap functionality across 20 blockchains.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 444.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 444.89 Tm (Optimized NATS-based inter-service communication and worked on asynchronous RPC using) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 429.89 Tm (selected JetStream capabilities.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 411.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 411.89 Tm (Used continuous profiling with pprof to investigate backend performance and guide targeted) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 396.89 Tm (optimizations.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 378.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 378.89 Tm (Used Grafana Tempo for distributed tracing and Grafana Loki for log analysis when investigating) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 363.89 Tm (backend behavior.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 345.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 345.89 Tm (Operated multi-cluster Kubernetes environments, deploying services with Helm and managing) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 330.89 Tm (infrastructure with Terraform.) Tj ET
+BT /F2 12.00 Tf 0.082 0.227 0.196 rg 1 0 0 1 44.00 298.89 Tm (Faraway \227 Senior Golang Developer) Tj ET
+BT /F1 9.50 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 281.89 Tm (Jan 2022 \226 Dec 2022 \267 Remote \267 Full-time) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 263.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 263.89 Tm (Developed Go backend features for a blockchain gaming product, implementing server-side) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 248.89 Tm (application functionality.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 230.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 230.89 Tm (Maintained AWS infrastructure supporting the product alongside hands-on backend development.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 212.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 212.89 Tm (Worked on Kubernetes infrastructure supporting the backend runtime environment.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 194.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 194.89 Tm (Optimized AWS and Kubernetes infrastructure as part of ongoing platform improvements.) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 45.00 176.89 Tm (\226) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 176.89 Tm (Investigated technical issues with the team and helped improve application and infrastructure) Tj ET
+BT /F1 11.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 57.00 161.89 Tm (stability.) Tj ET
 0.780 0.820 0.770 RG 0.70 w 44.00 55.89 m 551.28 55.89 l S
 BT /F1 8.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 44.00 38.89 Tm (linkedin.com/in/nyarum) Tj ET
 BT /F2 8.00 Tf 0.340 0.410 0.370 rg 1 0 0 1 526.82 38.89 Tm (01 / 04) Tj ET
@@ -278,22 +276,22 @@ xref
 0000000112 00000 n 
 0000000214 00000 n 
 0000000292 00000 n 
-0000005972 00000 n 
-0000006132 00000 n 
-0000006290 00000 n 
-0000006454 00000 n 
-0000011612 00000 n 
-0000011770 00000 n 
-0000011929 00000 n 
-0000017516 00000 n 
-0000017675 00000 n 
-0000017836 00000 n 
-0000024216 00000 n 
-0000024375 00000 n 
-0000024536 00000 n 
-0000024623 00000 n 
+0000005739 00000 n 
+0000005899 00000 n 
+0000006057 00000 n 
+0000006221 00000 n 
+0000011379 00000 n 
+0000011537 00000 n 
+0000011696 00000 n 
+0000017283 00000 n 
+0000017442 00000 n 
+0000017603 00000 n 
+0000023983 00000 n 
+0000024142 00000 n 
+0000024303 00000 n 
+0000024390 00000 n 
 trailer
 << /Size 19 /Root 17 0 R /Info 18 0 R >>
 startxref
-24869
+24636
 %%EOF

@@ -8,7 +8,7 @@ Georgia · LinkedIn: [linkedin.com/in/nyarum](https://www.linkedin.com/in/nyarum
 
 ## Summary
 
-Senior Backend Engineer with 10\+ years of software engineering experience across Web 3, gaming and analytics, with deep PostgreSQL knowledge. At 1inch, worked on Pathfinder and swaps across 20 blockchains, optimized NATS-based asynchronous communication, used pprof, Tempo and Loki for profiling and observability, and operated multi-cluster Kubernetes environments with Helm and Terraform. Earlier experience includes Go backends, event-driven analytics, AWS infrastructure and backend team leadership. Knowledge of LLM deployment with vLLM and SGLang and model quantization. Develop and use Onepiece, a modular custom harness for AI-assisted engineering workflows.
+I’m a Senior Backend Engineer with 10\+ years of software engineering experience across Web3, gaming and analytics. My background includes Go backend development, event-driven systems, cloud infrastructure and backend team leadership, with deep PostgreSQL knowledge. At 1inch, I contributed to Pathfinder and backend services supporting swaps across 20 blockchains. Alongside my backend work, I develop and use Onepiece, a modular custom harness for AI-assisted engineering workflows. I also have knowledge of LLM deployment with vLLM and SGLang and model quantization.
 
 ## Experience
 
