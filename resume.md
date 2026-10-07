@@ -4,7 +4,7 @@ Senior Backend Engineer
 
 Go / Golang \| Distributed Systems \| Performance & Reliability
 
-Georgia · [LinkedIn](https://www.linkedin.com/in/nyarum/) · [GitHub](https://github.com/Nyarum) · [Telegram](https://t.me/golovatskiii)
+Georgia · [LinkedIn](https://www.linkedin.com/in/nyarum/) · [nyarumilian@gmail.com](mailto:nyarumilian@gmail.com) · [GitHub](https://github.com/Nyarum) · [Telegram](https://t.me/golovatskiii)
 
 ## Summary
 
