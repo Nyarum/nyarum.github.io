@@ -2,7 +2,7 @@
 
 Senior Backend Engineer
 
-Web 3 · Go · LLM Serving / Custom harnesses
+Go / Golang \| Distributed Systems \| Performance & Reliability
 
 Georgia · [LinkedIn](https://www.linkedin.com/in/nyarum/) · [GitHub](https://github.com/Nyarum) · [Telegram](https://t.me/golovatskiii)
 
