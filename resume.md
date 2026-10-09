@@ -1,6 +1,6 @@
 # Grigorii Eleskin
 
-Senior Backend Engineer
+Senior Software Engineer
 
 Go / Golang \| Distributed Systems \| Performance & Reliability
 
@@ -8,15 +8,35 @@ Georgia · [LinkedIn](https://www.linkedin.com/in/nyarum/) · [nyarumilian@gmail
 
 ## Summary
 
-Senior Backend Engineer with 10\+ years of experience building and operating production software, primarily in Go.
+Senior Software Engineer with 11 years of professional software development experience, specializing in Go and designing high-load backend systems.
 
-My experience spans blockchain infrastructure, real-time multiplayer gaming, and user behavior analytics. I build distributed backend systems, messaging and state-distribution infrastructure, WebSocket services, and data pipelines using technologies such as NATS, Redis, PostgreSQL, and ClickHouse.
+I have experience developing high-load services and distributed systems. I am involved in the full software development lifecycle, from analyzing business requirements and designing system architecture to implementation, deployment, and maintenance of services in production.
 
-I take ownership from business requirements through architecture, implementation, deployment, and production verification. This includes operating services with Kubernetes and Helm, investigating latency and resource bottlenecks, and using tracing and profiling to guide performance improvements.
+Core competencies:
 
-At 1inch, my work covered distributed state management, blockchain RPC integrations, Solidity contracts, and production performance. At Faraway, I built backend systems for multiplayer features and worked on horizontally scalable real-time communication and data-intensive architectures.
+Designing and developing backend services in Go.
 
-I prefer the simplest architecture that meets the requirements, with explicit trade-offs around reliability, performance, and operational complexity. I also work with Rust and TypeScript.
+Building distributed systems and implementing inter-service communication.
+
+Database design, query optimization, and performance tuning.
+
+Effort estimation, task decomposition, and planning technical changes.
+
+Analyzing dependencies and assessing the impact of changes on existing system components.
+
+Conducting code reviews with a focus on correctness, algorithmic complexity, and compliance with architectural requirements.
+
+Experience in technical leadership of a backend development team.
+
+When designing systems, I prioritize simple, well-justified architectural solutions that balance reliability, performance, and maintainability.
+
+Tech stack:
+
+Go, TypeScript, NodeJS, Tempo, Pyroscope, PostgreSQL, Redis, NATS, gRPC, Docker, Kubernetes, Prometheus, Grafana, Kafka, RabbitMQ, ClickHouse.
+
+Additional experience:
+
+I am developing Onepiece, a modular AI-powered tool for automating engineering workflows. I also work with Rust and TypeScript. I have over 10 years of experience reverse-engineering MMORPG network protocols
 
 ## Work Experience
 
@@ -24,13 +44,15 @@ I prefer the simplest architecture that meets the requirements, with explicit tr
 
 January 2023 – September 2026
 
-- Integrated new DEX protocols into Pathfinder, expanding trading pair coverage and improving available exchange rates.
-- Maintained integrations as APIs and contract addresses changed, collaborating with DEX protocol developers.
-- Investigated support requests and production incidents related to routing and protocol integrations.
-- Developed integration tests for real-world swap scenarios using Tenderly and blockchain RPC providers.
-- Designed and maintained service deployment processes for staging and production.
-- Contributed to the architecture of new features and the migration from HTTP to NATS, simplifying horizontal service scaling.
-- Technologies: Go \(Golang\), TypeScript, NATS, Redis, Blockchain, gRPC, Protobuf, ClickHouse.
+- Initiated and designed the migration of inter-service communication from HTTP to NATS to simplify service orchestration and horizontal scaling across multiple AWS regions.
+- Collaborated with the DevOps team to design a multi-region NATS topology with independent regional clusters interconnected through leaf nodes.
+- Designed and implemented a Go library for inter-service communication using NATS request/reply and queue groups. Built worker-level backpressure mechanisms, request classification by computational complexity, and application-level ACK/NACK handling with client-side retries to redistribute requests under load.
+- Developed and maintained DEX protocol integrations within Pathfinder, a trade routing service, expanding liquidity coverage and available swap routes to improve execution options.
+- Adapted integrations to changes in external APIs and smart contracts, collaborating with DEX protocol teams to investigate and resolve compatibility issues.
+- Investigated and resolved production incidents involving trade routing, blockchain interactions, and external protocol integrations. Developed integration tests covering real-world swap scenarios using Tenderly and blockchain RPC providers.
+- Designed and maintained backend deployment workflows for staging and production environments.
+- Participating in integration new blockchains like Solana, Robinhood.
+- Technologies: Go, TypeScript, NATS, Redis, gRPC, Protobuf, ClickHouse, AWS, Blockchain, Tenderly, RPC.
 
 ### Faraway — Senior Golang Developer
 
@@ -47,7 +69,7 @@ January 2022 – December 2022 · Remote · Full-time
 
 June 2020 – November 2021 · Remote · Full-time
 
-- Developed Go backend services for a user behavior analytics platform and integrated new analytics features.
+- Developed Go backend services and integrated new features for a user behavior analytics platform.
 - Refactored the event-driven backend to improve data-processing performance.
 - Implemented Terraform pipelines for infrastructure changes and maintained the platform’s AWS clusters.
 
@@ -57,7 +79,7 @@ December 2018 – May 2020 · Remote · Full-time
 
 - Led a backend team developing and maintaining projects for external clients.
 - Combined development coordination with hands-on backend implementation.
-- Improved architecture and refactored existing systems.
+- Improved architecture and refactored existing backend systems.
 
 ### Mobalytics — Backend Developer
 
@@ -172,7 +194,7 @@ Redis, Cache Invalidation, Distributed Caching
 
 ## Certifications
 
-- Scrum Developer Certificate
+- Professional Scrum Developer 1
 
 ## Open Source & Interests
 
