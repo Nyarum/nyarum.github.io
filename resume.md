@@ -24,79 +24,66 @@ I prefer the simplest architecture that meets the requirements, with explicit tr
 
 January 2023 – September 2026
 
-- Designed state distribution between services using NATS and Redis, addressing consistency, fault tolerance, and the risk of state loss across distributed components.
-- Built integrations with multiple blockchain RPC providers, accounting for latency, failures, and provider-specific limitations.
-- Developed, modified, and deployed Solidity smart contracts, including batching multiple operations to reduce individual on-chain requests.
-- Identified and addressed latency, CPU, and memory bottlenecks using distributed tracing and profiling with Grafana, Tempo, and Pyroscope.
-- Owned service delivery and production operation with Kubernetes and Helm, including deployment, configuration, scaling, observability, and performance analysis.
+- Integrated new DEX protocols into Pathfinder, expanding trading pair coverage and improving available exchange rates.
+- Maintained integrations as APIs and contract addresses changed, collaborating with DEX protocol developers.
+- Investigated support requests and production incidents related to routing and protocol integrations.
+- Developed integration tests for real-world swap scenarios using Tenderly and blockchain RPC providers.
+- Designed and maintained service deployment processes for staging and production.
+- Contributed to the architecture of new features and the migration from HTTP to NATS, simplifying horizontal service scaling.
+- Technologies: Go \(Golang\), TypeScript, NATS, Redis, Blockchain, gRPC, Protobuf, ClickHouse.
 
 ### Faraway — Senior Golang Developer
 
 January 2022 – December 2022 · Remote · Full-time
 
-- Designed and developed backend systems for real-time multiplayer game features, including rooms and lobbies, with a focus on reliability and horizontal scalability.
-- Built scalable microservices capable of supporting growing player concurrency and distributing workload across multiple service instances.
-- Designed ETL and data distribution pipelines to move workloads away from a single PostgreSQL database and route data into storage systems optimized for specific access patterns, including PostgreSQL, ClickHouse, and Redis.
-- Designed data-intensive architectures for high write throughput, using table partitioning, sharding, and workload separation to keep databases performant as data volume and traffic increased.
-- Built and scaled WebSocket infrastructure for large numbers of concurrent connections, using message brokers to distribute events and communication across multiple backend instances.
-- Worked on the full lifecycle of backend features, from product requirements and architecture to implementation, scaling, deployment, and production reliability.
+- Developed Go backend services for real-time multiplayer features, including rooms and lobbies, taking features from product requirements and architecture through implementation and production support.
+- Designed horizontally scalable microservices and distributed workloads across service instances.
+- Developed WebSocket infrastructure and used message brokers for inter-instance event delivery.
+- Designed ETL pipelines and data distribution across PostgreSQL, ClickHouse, and Redis according to access patterns, reducing load on the primary PostgreSQL database.
+- Applied table partitioning, cross-node data sharding, and workload separation to write-intensive systems, selecting approaches according to the access pattern.
+- Technologies: Go \(Golang\), PostgreSQL, ClickHouse, AWS, Redis.
 
 ### UserReplay — Senior Golang Developer
 
 June 2020 – November 2021 · Remote · Full-time
 
-- Developed Go backend functionality for a user behavior analytics platform.
-- Integrated new analytics features into the existing backend, extending the platform's functionality.
-- Refactored the event-driven backend to improve processing performance.
-- Implemented Terraform pipelines for infrastructure changes alongside application development.
-- Maintained AWS clusters supporting the analytics platform and its backend services.
+- Developed Go backend services for a user behavior analytics platform and integrated new analytics features.
+- Refactored the event-driven backend to improve data-processing performance.
+- Implemented Terraform pipelines for infrastructure changes and maintained the platform’s AWS clusters.
 
 ### youwork.today — Technical Team Lead
 
 December 2018 – May 2020 · Remote · Full-time
 
-- Led a backend team developing new features for third-party client projects.
-- Organized development work using agile practices, coordinating feature delivery and support for existing functionality.
-- Combined technical leadership with hands-on work on backend functionality for client applications. Improved the architecture of existing backend systems across multiple client projects.
-- Refactored existing application functionality as part of ongoing backend development and maintenance.
+- Led a backend team developing and maintaining projects for external clients.
+- Combined development coordination with hands-on backend implementation.
+- Improved architecture and refactored existing systems.
 
 ### Mobalytics — Backend Developer
 
 October 2017 – October 2018 · Remote
 
-- Developed microservices for a game analytics platform, implementing backend functionality for its analytical features.
-- Worked on the communication protocol used to interact with CS:GO as part of game-specific backend development.
-- Introduced a beta solution for CS:GO analytics, extending the platform's game-specific functionality. Investigated technical issues in the analytics backend to help the team resolve problems.
-- Supported backend service stability alongside microservice and CS:GO analytics development.
+- Developed and maintained microservices for a gaming analytics platform.
+- Worked on the CS:GO communication protocol and delivered a beta analytics solution for the game.
+- Investigated technical issues and maintained backend service stability.
 
 ### Ronin Club — Software Engineer
 
 March 2017 – October 2017 · Remote · Contract
 
-- Developed software features for external clients, translating business requirements into working application functionality.
-- Worked through client requirements at implementation level, connecting business needs with concrete application behavior.
-- Implemented application logic around client-specific workflows and business rules.
-- Integrated feature-level changes into client applications as part of outsourced development work.
-- Refined feature implementations against business requirements to keep application behavior aligned with client needs.
+- Developed applications for external clients, translating business requirements into application logic and integrating new functionality.
 
 ### SeeSaw Labs — Middle Golang Developer
 
 July 2015 – January 2017 · Remote · Full-time
 
-- Developed backend functionality in Go, contributing to the application's server-side implementation. Implemented business logic that translated application requirements into concrete backend behavior.
-- Worked on backend components responsible for applying business rules within application workflows.
-- Connected business-logic implementation with the surrounding backend functionality as part of feature development.
-- Refined backend code to keep application behavior aligned with business-logic requirements.
+- Developed backend components in Go and implemented application business logic.
 
 ### Iron.io — Middle Golang Developer
 
 September 2016 – December 2016 · Remote · Freelance
 
-- Developed a Go command-line utility for the Iron service, providing a terminal-based interface to its functionality.
-- Implemented command behavior for interacting with Iron, connecting CLI actions to the service's capabilities.
-- Worked on the utility's user-facing command flow, focusing on straightforward interaction from the terminal.
-- Improved CLI usability by refining how users accessed the utility's functionality.
-- Refined command-line workflows to make routine interactions with the Iron service more efficient.
+- Developed a Go CLI for interacting with the Iron service, implementing commands and improving command-line workflows.
 
 ## Skills
 

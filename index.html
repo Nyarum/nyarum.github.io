@@ -218,11 +218,13 @@
         <p class="job-role">Senior Backend Engineer</p>
         <p class="job-date"><time datetime="2023-01">January 2023</time> – <time datetime="2026-09">September 2026</time></p>
         <ul>
-          <li>Designed state distribution between services using NATS and Redis, addressing consistency, fault tolerance, and the risk of state loss across distributed components.</li>
-          <li>Built integrations with multiple blockchain RPC providers, accounting for latency, failures, and provider-specific limitations.</li>
-          <li>Developed, modified, and deployed Solidity smart contracts, including batching multiple operations to reduce individual on-chain requests.</li>
-          <li>Identified and addressed latency, CPU, and memory bottlenecks using distributed tracing and profiling with Grafana, Tempo, and Pyroscope.</li>
-          <li>Owned service delivery and production operation with Kubernetes and Helm, including deployment, configuration, scaling, observability, and performance analysis.</li>
+          <li>Integrated new DEX protocols into Pathfinder, expanding trading pair coverage and improving available exchange rates.</li>
+          <li>Maintained integrations as APIs and contract addresses changed, collaborating with DEX protocol developers.</li>
+          <li>Investigated support requests and production incidents related to routing and protocol integrations.</li>
+          <li>Developed integration tests for real-world swap scenarios using Tenderly and blockchain RPC providers.</li>
+          <li>Designed and maintained service deployment processes for staging and production.</li>
+          <li>Contributed to the architecture of new features and the migration from HTTP to NATS, simplifying horizontal service scaling.</li>
+          <li>Technologies: Go (Golang), TypeScript, NATS, Redis, Blockchain, gRPC, Protobuf, ClickHouse.</li>
         </ul>
       </article>
       <article class="job">
@@ -230,12 +232,12 @@
         <p class="job-role">Senior Golang Developer</p>
         <p class="job-date"><time datetime="2022-01">January 2022</time> – <time datetime="2022-12">December 2022</time> · <span class="job-meta">Remote · Full-time</span></p>
         <ul>
-          <li>Designed and developed backend systems for real-time multiplayer game features, including rooms and lobbies, with a focus on reliability and horizontal scalability.</li>
-          <li>Built scalable microservices capable of supporting growing player concurrency and distributing workload across multiple service instances.</li>
-          <li>Designed ETL and data distribution pipelines to move workloads away from a single PostgreSQL database and route data into storage systems optimized for specific access patterns, including PostgreSQL, ClickHouse, and Redis.</li>
-          <li>Designed data-intensive architectures for high write throughput, using table partitioning, sharding, and workload separation to keep databases performant as data volume and traffic increased.</li>
-          <li>Built and scaled WebSocket infrastructure for large numbers of concurrent connections, using message brokers to distribute events and communication across multiple backend instances.</li>
-          <li>Worked on the full lifecycle of backend features, from product requirements and architecture to implementation, scaling, deployment, and production reliability.</li>
+          <li>Developed Go backend services for real-time multiplayer features, including rooms and lobbies, taking features from product requirements and architecture through implementation and production support.</li>
+          <li>Designed horizontally scalable microservices and distributed workloads across service instances.</li>
+          <li>Developed WebSocket infrastructure and used message brokers for inter-instance event delivery.</li>
+          <li>Designed ETL pipelines and data distribution across PostgreSQL, ClickHouse, and Redis according to access patterns, reducing load on the primary PostgreSQL database.</li>
+          <li>Applied table partitioning, cross-node data sharding, and workload separation to write-intensive systems, selecting approaches according to the access pattern.</li>
+          <li>Technologies: Go (Golang), PostgreSQL, ClickHouse, AWS, Redis.</li>
         </ul>
       </article>
       <article class="job">
@@ -243,11 +245,9 @@
         <p class="job-role">Senior Golang Developer</p>
         <p class="job-date"><time datetime="2020-06">June 2020</time> – <time datetime="2021-11">November 2021</time> · <span class="job-meta">Remote · Full-time</span></p>
         <ul>
-          <li>Developed Go backend functionality for a user behavior analytics platform.</li>
-          <li>Integrated new analytics features into the existing backend, extending the platform&#x27;s functionality.</li>
-          <li>Refactored the event-driven backend to improve processing performance.</li>
-          <li>Implemented Terraform pipelines for infrastructure changes alongside application development.</li>
-          <li>Maintained AWS clusters supporting the analytics platform and its backend services.</li>
+          <li>Developed Go backend services for a user behavior analytics platform and integrated new analytics features.</li>
+          <li>Refactored the event-driven backend to improve data-processing performance.</li>
+          <li>Implemented Terraform pipelines for infrastructure changes and maintained the platform’s AWS clusters.</li>
         </ul>
       </article>
       <article class="job">
@@ -255,10 +255,9 @@
         <p class="job-role">Technical Team Lead</p>
         <p class="job-date"><time datetime="2018-12">December 2018</time> – <time datetime="2020-05">May 2020</time> · <span class="job-meta">Remote · Full-time</span></p>
         <ul>
-          <li>Led a backend team developing new features for third-party client projects.</li>
-          <li>Organized development work using agile practices, coordinating feature delivery and support for existing functionality.</li>
-          <li>Combined technical leadership with hands-on work on backend functionality for client applications. Improved the architecture of existing backend systems across multiple client projects.</li>
-          <li>Refactored existing application functionality as part of ongoing backend development and maintenance.</li>
+          <li>Led a backend team developing and maintaining projects for external clients.</li>
+          <li>Combined development coordination with hands-on backend implementation.</li>
+          <li>Improved architecture and refactored existing systems.</li>
         </ul>
       </article>
       <article class="job">
@@ -266,10 +265,9 @@
         <p class="job-role">Backend Developer</p>
         <p class="job-date"><time datetime="2017-10">October 2017</time> – <time datetime="2018-10">October 2018</time> · <span class="job-meta">Remote</span></p>
         <ul>
-          <li>Developed microservices for a game analytics platform, implementing backend functionality for its analytical features.</li>
-          <li>Worked on the communication protocol used to interact with CS:GO as part of game-specific backend development.</li>
-          <li>Introduced a beta solution for CS:GO analytics, extending the platform&#x27;s game-specific functionality. Investigated technical issues in the analytics backend to help the team resolve problems.</li>
-          <li>Supported backend service stability alongside microservice and CS:GO analytics development.</li>
+          <li>Developed and maintained microservices for a gaming analytics platform.</li>
+          <li>Worked on the CS:GO communication protocol and delivered a beta analytics solution for the game.</li>
+          <li>Investigated technical issues and maintained backend service stability.</li>
         </ul>
       </article>
       <article class="job compact">
@@ -277,11 +275,7 @@
         <p class="job-role">Software Engineer</p>
         <p class="job-date"><time datetime="2017-03">March 2017</time> – <time datetime="2017-10">October 2017</time> · <span class="job-meta">Remote · Contract</span></p>
         <ul>
-          <li>Developed software features for external clients, translating business requirements into working application functionality.</li>
-          <li>Worked through client requirements at implementation level, connecting business needs with concrete application behavior.</li>
-          <li>Implemented application logic around client-specific workflows and business rules.</li>
-          <li>Integrated feature-level changes into client applications as part of outsourced development work.</li>
-          <li>Refined feature implementations against business requirements to keep application behavior aligned with client needs.</li>
+          <li>Developed applications for external clients, translating business requirements into application logic and integrating new functionality.</li>
         </ul>
       </article>
       <article class="job compact">
@@ -289,10 +283,7 @@
         <p class="job-role">Middle Golang Developer</p>
         <p class="job-date"><time datetime="2015-07">July 2015</time> – <time datetime="2017-01">January 2017</time> · <span class="job-meta">Remote · Full-time</span></p>
         <ul>
-          <li>Developed backend functionality in Go, contributing to the application&#x27;s server-side implementation. Implemented business logic that translated application requirements into concrete backend behavior.</li>
-          <li>Worked on backend components responsible for applying business rules within application workflows.</li>
-          <li>Connected business-logic implementation with the surrounding backend functionality as part of feature development.</li>
-          <li>Refined backend code to keep application behavior aligned with business-logic requirements.</li>
+          <li>Developed backend components in Go and implemented application business logic.</li>
         </ul>
       </article>
       <article class="job compact">
@@ -300,11 +291,7 @@
         <p class="job-role">Middle Golang Developer</p>
         <p class="job-date"><time datetime="2016-09">September 2016</time> – <time datetime="2016-12">December 2016</time> · <span class="job-meta">Remote · Freelance</span></p>
         <ul>
-          <li>Developed a Go command-line utility for the Iron service, providing a terminal-based interface to its functionality.</li>
-          <li>Implemented command behavior for interacting with Iron, connecting CLI actions to the service&#x27;s capabilities.</li>
-          <li>Worked on the utility&#x27;s user-facing command flow, focusing on straightforward interaction from the terminal.</li>
-          <li>Improved CLI usability by refining how users accessed the utility&#x27;s functionality.</li>
-          <li>Refined command-line workflows to make routine interactions with the Iron service more efficient.</li>
+          <li>Developed a Go CLI for interacting with the Iron service, implementing commands and improving command-line workflows.</li>
         </ul>
       </article>
     </section>
