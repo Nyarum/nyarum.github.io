@@ -1,6 +1,6 @@
 # Григорий Елескин
 
-Старший инженер-программист
+Senior Software Engineer
 
 Go / Golang \| Распределённые системы \| Производительность и надёжность
 
@@ -40,7 +40,7 @@ Go, TypeScript, NodeJS, Tempo, Pyroscope, PostgreSQL, Redis, NATS, gRPC, Docker,
 
 ## Опыт работы
 
-### 1inch — Старший backend-инженер
+### 1inch — Senior Backend Engineer
 
 Январь 2023 – Сентябрь 2026
 
@@ -54,7 +54,7 @@ Go, TypeScript, NodeJS, Tempo, Pyroscope, PostgreSQL, Redis, NATS, gRPC, Docker,
 - Участвую в интеграции новых блокчейнов, таких как Solana и Robinhood.
 - Технологии: Go, TypeScript, NATS, Redis, gRPC, Protobuf, ClickHouse, AWS, Blockchain, Tenderly, RPC.
 
-### Faraway — Старший Go-разработчик
+### Faraway — Senior Golang Developer
 
 Январь 2022 – Декабрь 2022 · Удалённо · Полная занятость
 
@@ -65,7 +65,7 @@ Go, TypeScript, NodeJS, Tempo, Pyroscope, PostgreSQL, Redis, NATS, gRPC, Docker,
 - Для систем с интенсивной записью применял секционирование таблиц, распределение данных между узлами \(шардинг\) и разделение нагрузок, выбирая подход под конкретный сценарий доступа.
 - Технологии: Golang, PostgreSQL, Clickhouse, AWS, Redis
 
-### UserReplay — Старший Go-разработчик
+### UserReplay — Senior Golang Developer
 
 Июнь 2020 – Ноябрь 2021 · Удалённо · Полная занятость
 
@@ -73,7 +73,7 @@ Go, TypeScript, NodeJS, Tempo, Pyroscope, PostgreSQL, Redis, NATS, gRPC, Docker,
 - Проводил рефакторинг событийно-ориентированного backend для повышения производительности обработки данных.
 - Внедрял Terraform-пайплайны для изменения инфраструктуры и поддерживал AWS-кластеры платформы.
 
-### youwork.today — Технический руководитель команды
+### youwork.today — Technical Team Lead
 
 Декабрь 2018 – Май 2020 · Удалённо · Полная занятость
 
@@ -81,7 +81,7 @@ Go, TypeScript, NodeJS, Tempo, Pyroscope, PostgreSQL, Redis, NATS, gRPC, Docker,
 - Совмещал организацию разработки с реализацией backend-функций.
 - Улучшал архитектуру и проводил рефакторинг существующих backend-систем.
 
-### Mobalytics — Backend-разработчик
+### Mobalytics — Backend Developer
 
 Октябрь 2017 – Октябрь 2018 · Удалённо
 
@@ -89,19 +89,19 @@ Go, TypeScript, NodeJS, Tempo, Pyroscope, PostgreSQL, Redis, NATS, gRPC, Docker,
 - Работал над протоколом взаимодействия с CS:GO и внедрил бета-решение для аналитики этой игры.
 - Исследовал технические проблемы и обеспечивал стабильность backend-сервисов.
 
-### Ronin Club — Инженер-программист
+### Ronin Club — Software Engineer
 
 Март 2017 – Октябрь 2017 · Удалённо · Контракт
 
 - Разрабатывал приложения для внешних клиентов: переводил бизнес-требования в программную логику и интегрировал новую функциональность.
 
-### SeeSaw Labs — Go-разработчик \(Middle\)
+### SeeSaw Labs — Middle Golang Developer
 
 Июль 2015 – Январь 2017 · Удалённо · Полная занятость
 
 - Разрабатывал backend на Go и реализовывал бизнес-логику приложения.
 
-### Iron.io — Go-разработчик \(Middle\)
+### Iron.io — Middle Golang Developer
 
 Сентябрь 2016 – Декабрь 2016 · Удалённо · Фриланс
 
