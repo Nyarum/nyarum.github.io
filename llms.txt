@@ -1,6 +1,6 @@
 # Grigorii Eleskin
 
-> Senior Software Engineer. Go / Golang \| Distributed Systems \| Performance & Reliability.
+> Senior Backend Engineer. Distributed Systems & High-Performance Infrastructure \| Go.
 
 Public engineering portfolio and résumé.
 
@@ -11,6 +11,6 @@ Public engineering portfolio and résumé.
 - [Резюме на русском \(PDF\)](https://nyarum.github.io/grigorii-eleskin-resume-ru.pdf): PDF с текстовым слоем и встроенным кириллическим шрифтом.
 - [Резюме на русском \(DOCX\)](https://nyarum.github.io/grigorii-eleskin-resume-ru.docx): Редактируемое одноколоночное резюме.
 - [Résumé \(DOCX\)](https://nyarum.github.io/grigorii-eleskin-resume.docx): Editable single-column résumé.
-- [Portfolio](https://nyarum.github.io/): Professional profile, work experience, AI practice and technical expertise.
-- [Résumé \(Markdown\)](https://nyarum.github.io/resume.md): Full text résumé: role dates and descriptions, summary, AI workflows, skills and training.
+- [Portfolio](https://nyarum.github.io/): Professional profile, summary and work experience.
+- [Résumé \(Markdown\)](https://nyarum.github.io/resume.md): Full text résumé: professional title, summary, role dates and descriptions.
 - [Résumé \(PDF\)](https://nyarum.github.io/grigorii-eleskin-resume.pdf): Downloadable, text-based résumé with the same professional content.
