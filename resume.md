@@ -75,3 +75,19 @@ July 2015 – January 2017 · Remote · Full-time
 September 2016 – December 2016 · Remote · Freelance
 
 - Develop a Go CLI for interacting with the Iron service, implementing commands and improving command-line workflows.
+
+## Impact Showcase — 1inch
+
+One of the fastest measurable outcomes I initiated was building a competitive rate intelligence system at 1inch, delivered end-to-end in just two weeks.
+
+The idea came from a business need: understanding where our swap routing algorithm was losing to competitors. The straightforward approach would have required building a massive infrastructure to continuously request on-chain quotes across thousands of trading pairs and multiple aggregators. Instead, I proposed leveraging Matcha, which already consolidated quotes from multiple providers, as a faster way to validate the idea and deliver value.
+
+The biggest challenge was making data collection reliable despite sophisticated browser fingerprinting, anti-bot protection, and rate limits. I used local open-source LLMs to accelerate reverse engineering and experimentation, while AI coding agents helped eliminate much of the routine implementation work.
+
+Within two weeks, I built and shipped the entire system: automated quote collection, a ClickHouse analytical pipeline, and a dashboard comparing 1inch against competitors across ~15 chains and 3,000\+ trading pairs, with data collected every second.
+
+The business impact went beyond monitoring. We could identify historical cases where our routing algorithm underperformed, reproduce them against specific blockchain states, and determine whether the issue was missing protocol coverage or routing inefficiency. These insights helped prioritize new protocol integrations and algorithm improvements. Over the following two weeks, our competitive win rate improved from approximately 40–45% to 55%, an estimated 10–15 percentage-point gain.
+
+My biggest learning was that starting with a simple, pragmatic idea can quickly evolve into a much more powerful system. Local AI models and coding agents dramatically accelerated research and execution, allowing me to focus on architecture, experimentation, and business value rather than repetitive implementation.
+
+Looking back, I would have started building an independent on-chain quote collection pipeline in parallel. That would have reduced our dependency on a single external data source, eliminated a potential single point of failure, and provided an additional way to validate the accuracy of our competitive comparisons.
